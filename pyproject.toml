@@ -110,7 +110,7 @@ tests = [
     'pywin32>=225; sys_platform == "win32"', # optional test dependency
     'tzdata; sys_platform == "win32"',  # for testing with celery
 ]
-webdav = ["dvc-webdav==2.19.1"]
+webdav = ["dvc-webdav==3.0.0"]
 webhdfs = ["dvc-webhdfs==2.19"]
 webhdfs_kerberos = ["dvc-webhdfs[kerberos]==2.19"]
 
